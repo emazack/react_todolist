@@ -1,6 +1,16 @@
 import React, {Component} from 'react'
-import InsertInput from './InsertInput'
-import InsertButton from './InsertButton'
+
+const InsertInput = () => {
+  return (
+    <input type="text" />
+  )
+}
+
+const InsertButton = () => {
+  return (
+    <button>Inserisci Task</button>  
+  )
+}
 
 
 class ToDoManager extends Component {
